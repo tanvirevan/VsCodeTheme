@@ -149,12 +149,6 @@
         background: transparent !important;
     }
 
-/* Project Title */
-/* .titlebar-left {
-    justify-content: flex-start !important;
-    flex-grow: 0 !important;
-    width: auto !important;
-} */
 
 /* Search Label */
 .search-label 
@@ -182,9 +176,6 @@
         display: none !important;
     }
 
-/* .titlebar-right > * {
-    display: none !important;
-} */
 
 /* Command Palette */
 .quick-input-widget 
@@ -213,18 +204,6 @@
         background: none !important;
     }
 
-/* .monaco-list-row.focused {
-    background-color: rgb(181 198 228 / 25%) !important;
-} */
-
-/* .synthetic-focus {
-    outline-color: rgba(50, 50, 50, 1) !important;
-} */
-
-/* .quick-input-widget .monaco-label {
-    font-size: 11px !important;
-} */
-
 /* Command palette text input */
 .quick-input-filter .monaco-inputbox 
     {
@@ -242,10 +221,10 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, .25);
+        background: rgba(0, 0, 0, .05);
         top: 0;
         left: 0;
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(4px);
     }
 
 /* Command palette's input box placeholder. */
@@ -254,10 +233,10 @@
         color: rgba(255, 255, 255, .3) !important;
     }
 
-/* .monaco-workbench label {
+.monaco-workbench label {
     color: #fff !important;
     font-size: 14px !important;
-} */
+}
 
 /* Container that holds the VS Code home icon. */
 .editor-group-watermark 
