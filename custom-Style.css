@@ -20,6 +20,20 @@
         color: #c6de34 !important;
         opacity: 0.8 !important;
     }
+.mtk6
+    {
+        color: #fac939;
+        opacity: 0.95 !important;
+    }
+.mtk7
+    {
+        color: #5cb8d6;
+    }
+.mtk12
+    {
+        color: #FFFFFF;
+    }
+
 .line-numbers 
     {
         position: relative !important;
